@@ -6,6 +6,8 @@ import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.json.Json
 import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.OkHttpClient
+import org.jetbrains.anko.doAsync
+import org.jetbrains.anko.uiThread
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -26,7 +28,7 @@ class Library {
      * this will set the url to POST the data to API
      *
      */
-    public fun setup(baseUrl: String): Boolean {
+    fun setup(baseUrl: String): Boolean {
         apiURL = baseUrl
         retrofit = Retrofit.Builder().baseUrl(baseUrl)
                 .addConverterFactory(Json.asConverterFactory("application/json".toMediaType()))
@@ -43,38 +45,36 @@ class Library {
      * Func to send @LocationEvent
      * @param
      */
-    public fun log(event: LocationEvent) {
+    fun log(event: LocationEvent) {
 
-        retrofitService.postLocation(event).enqueue(
-                object : Callback<LocationEvent> {
-                    override fun onResponse(call: Call<LocationEvent>, response: Response<LocationEvent>) {
+        // runs the func in background thread for posting the locationEvent without affecting UI thread
+        doAsync {
+            // do your background thread task
+            retrofitService.postLocation(event).enqueue(
+                    object : Callback<LocationEvent> {
+                        override fun onResponse(call: Call<LocationEvent>, response: Response<LocationEvent>) {
+                        }
+
+                        override fun onFailure(call: Call<LocationEvent>, t: Throwable) {
+
+                        }
+
                     }
+            )
+            uiThread {
 
-                    override fun onFailure(call: Call<LocationEvent>, t: Throwable) {
-
-                    }
-
-                }
-        )
+            }
+        }
 
 
-        //test for @get from retrofit for httpbin
-        retrofitService.getTemp().enqueue(
-                object : Callback<LocationEvent> {
-                    override fun onResponse(call: Call<LocationEvent>, response: Response<LocationEvent>) {
-                        print(response.isSuccessful)
-                    }
-
-                    override fun onFailure(call: Call<LocationEvent>, t: Throwable) {
-                    }
-                }
-        )
 
     }
 
     fun isSuccessful(): Boolean {
         return status
     }
+
+
 
     companion object {
         var apiURL: String = "https://httpbin.org/post/"
