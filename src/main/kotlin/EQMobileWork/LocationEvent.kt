@@ -1,5 +1,6 @@
 package EQMobileWork
 
+import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 /**
@@ -14,4 +15,8 @@ import kotlinx.serialization.Serializable
  * @param ext : String - Extra field for logging Error on server side
  */
 @Serializable
-data class LocationEvent(val lat: Float? = 0.0f, val lon: Float? = 0.0f, val time: Long? = System.currentTimeMillis(), val ext: String?="No args passed in Log() call in library.")
+data class LocationEvent(
+        @SerialName("lat") val lat: Float? = 0.0f,
+        @SerialName("lon") val lon: Float? = 0.0f,
+        @SerialName("time") val time: Long? = System.currentTimeMillis(),
+        @SerialName("ext") val ext: String? = "No args passed in Log() call in library.")

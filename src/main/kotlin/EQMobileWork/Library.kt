@@ -10,6 +10,7 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.Retrofit
+import java.io.File
 
 
 /**
@@ -45,11 +46,10 @@ class Library {
      */
     fun log(event: LocationEvent) {
 
-
         retrofitService.postLocation(event).enqueue(
                 object : Callback<LocationEvent> {
                     override fun onResponse(call: Call<LocationEvent>, response: Response<LocationEvent>) {
-                    status = response.isSuccessful
+                        File("applicationx.log").writeText(response.isSuccessful.toString())
                     }
 
                     override fun onFailure(call: Call<LocationEvent>, t: Throwable) {
@@ -58,7 +58,7 @@ class Library {
 
                 }
         )
-
+        File("applicationx.log").writeText( retrofitService.postLocation(event).execute().toString())
 
         //test for @get from retrofit for httpbin
         retrofitService.getTemp().enqueue(
