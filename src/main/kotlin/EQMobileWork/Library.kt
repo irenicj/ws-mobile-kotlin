@@ -27,7 +27,7 @@ class Library {
      * this will set the url to POST the data to API
      *
      */
-    fun setup(baseUrl: String): Boolean {
+    public fun setup(baseUrl: String): Boolean {
         apiURL = baseUrl
         retrofit = Retrofit.Builder().baseUrl(baseUrl)
                 .addConverterFactory(Json.asConverterFactory("application/json".toMediaType()))
@@ -44,12 +44,11 @@ class Library {
      * Func to send @LocationEvent
      * @param
      */
-    fun log(event: LocationEvent) {
+    public fun log(event: LocationEvent) {
 
         retrofitService.postLocation(event).enqueue(
                 object : Callback<LocationEvent> {
                     override fun onResponse(call: Call<LocationEvent>, response: Response<LocationEvent>) {
-                        File("applicationx.log").writeText(response.isSuccessful.toString())
                     }
 
                     override fun onFailure(call: Call<LocationEvent>, t: Throwable) {
@@ -58,7 +57,7 @@ class Library {
 
                 }
         )
-        File("applicationx.log").writeText( retrofitService.postLocation(event).execute().toString())
+        File("applicationx.log").writeText(retrofitService.postLocation(event).execute().toString())
 
         //test for @get from retrofit for httpbin
         retrofitService.getTemp().enqueue(
