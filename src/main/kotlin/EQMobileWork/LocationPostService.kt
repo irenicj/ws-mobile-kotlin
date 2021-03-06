@@ -14,10 +14,6 @@ interface LocationPostService {
 
     @Headers("Content-Type: application/json")
     @POST("/")
-    fun postLocation(@Body locationEvent: LocationEvent): Call<LocationEvent>
-
-    @GET("/get")
-    fun getTemp(): Call<LocationEvent>
-
+    fun postLocation(@Body locationEvent: LocationEvent) : Call<LocationEvent>
 
 }

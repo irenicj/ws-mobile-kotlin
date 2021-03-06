@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c66d6f8e-94a1-48e6-9a71-49a0b5011d88" name="Default Changelist" comment="Log() func runs on async using anko lib">
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/EQMobileWork/Library.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/EQMobileWork/Library.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/EQMobileWork/LocationPostService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/EQMobileWork/LocationPostService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/EQMobileWork/LibraryTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/EQMobileWork/LibraryTest.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[R5CN20TWFSF]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pJWxeRXM3TvawnZzQfjzQCtL7D" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.53357863" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RunManager" selected="JUnit.LibraryTest">
+    <configuration name="All in EQMobileWorkSample (1)" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EQMobileWorkSample" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in EQMobileWorkSample" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EQMobileWorkSample" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EQMobileWorkSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EQMobileWork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="EQMobileWork" />
+      <option name="MAIN_CLASS_NAME" value="EQMobileWork.LibraryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest.testLog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EQMobileWorkSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EQMobileWork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="EQMobileWork" />
+      <option name="MAIN_CLASS_NAME" value="EQMobileWork.LibraryTest" />
+      <option name="METHOD_NAME" value="testLog" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest.testSetup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EQMobileWorkSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EQMobileWork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="EQMobileWork" />
+      <option name="MAIN_CLASS_NAME" value="EQMobileWork.LibraryTest" />
+      <option name="METHOD_NAME" value="testSetup" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LibraryTest" />
+        <item itemvalue="JUnit.LibraryTest.testLog" />
+        <item itemvalue="JUnit.LibraryTest.testSetup" />
+        <item itemvalue="Android JUnit.All in EQMobileWorkSample (1)" />
+        <item itemvalue="Android JUnit.All in EQMobileWorkSample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c66d6f8e-94a1-48e6-9a71-49a0b5011d88" name="Default Changelist" comment="" />
+      <created>1614901920649</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614901920649</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Retrofit Implemented&#10;exporting as lib &#10;tests needed for the lib">
+      <created>1614941862519</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614941862520</updated>
+    </task>
+    <task id="LOCAL-00002" summary="jitpack maven url added in build.gradle.kts">
+      <created>1614943871526</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614943871526</updated>
+    </task>
+    <task id="LOCAL-00003" summary="maven plugin added in build.gradle">
+      <created>1614948084122</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614948084122</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Logs on local file via java util removed.">
+      <created>1614948781729</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614948781729</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Logs on local file via java util removed.">
+      <created>1614949286934</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614949286934</updated>
+    </task>
+    <task id="LOCAL-00006" summary="bugs fixed on Library created by logging on File.">
+      <created>1614949381952</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614949381952</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Log() func runs on async using anko lib">
+      <created>1614954781954</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614954781954</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Retrofit Implemented&#10;exporting as lib &#10;tests needed for the lib" />
+    <MESSAGE value="jitpack maven url added in build.gradle.kts" />
+    <MESSAGE value="maven plugin added in build.gradle" />
+    <MESSAGE value="publishedToMavenLocal artifcats fixed" />
+    <MESSAGE value="Logs on local file via java util removed." />
+    <MESSAGE value="bugs fixed on Library created by logging on File." />
+    <MESSAGE value="Log() func runs on async using anko lib" />
+    <option name="LAST_COMMIT_MESSAGE" value="Log() func runs on async using anko lib" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2266" y="93" key="#All_in_EQMobileWorkSample_(2)" timestamp="1614939346681">
+      <screen x="1440" y="25" width="2560" height="1055" />
+    </state>
+    <state x="2266" y="93" key="#All_in_EQMobileWorkSample_(2)/1440.25.2560.1055/0.25.1440.875@1440.25.2560.1055" timestamp="1614939346681" />
+    <state x="2080" y="29" key="#Project_Structure" timestamp="1614957498110">
+      <screen x="1440" y="25" width="2560" height="1055" />
+    </state>
+    <state x="2080" y="29" key="#Project_Structure/1440.25.2560.1055/0.25.1440.875@1440.25.2560.1055" timestamp="1614957498110" />
+    <state x="2180" y="204" width="1119" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614937323040">
+      <screen x="1440" y="25" width="2560" height="1055" />
+    </state>
+    <state x="2180" y="204" width="1119" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.25.2560.1055/0.25.1440.875@1440.25.2560.1055" timestamp="1614937323040" />
+    <state x="2469" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1614958504398">
+      <screen x="1440" y="25" width="2560" height="1055" />
+    </state>
+    <state x="2469" y="205" key="#com.intellij.ide.util.MemberChooser/1440.25.2560.1055/0.25.1440.875@1440.25.2560.1055" timestamp="1614958504398" />
+    <state x="2411" y="298" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1614937299047">
+      <screen x="1440" y="25" width="2560" height="1055" />
+    </state>
+    <state x="2411" y="298" key="#com.intellij.ide.util.TreeClassChooserDialog/1440.25.2560.1055/0.25.1440.875@1440.25.2560.1055" timestamp="1614937299047" />
+    <state x="1440" y="54" width="1440" height="875" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1614941302816">
+      <screen x="1440" y="25" width="2560" height="1055" />
+    </state>
+    <state x="0" y="28" width="1440" height="875" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1440.0.2560.1080/0.0.1440.900@0.0.1440.900" timestamp="1614924770669" />
+    <state x="1440" y="54" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1440.25.2560.1055/0.25.1440.875@1440.25.2560.1055" timestamp="1614941302816" />
+    <state x="1540" y="125" width="2360" height="855" key="DiffContextDialog" timestamp="1614950188410">
+      <screen x="1440" y="25" width="2560" height="1055" />
+    </state>
+    <state x="1540" y="125" width="2360" height="855" key="DiffContextDialog/1440.25.2560.1055/0.25.1440.875@1440.25.2560.1055" timestamp="1614950188410" />
+    <state width="2508" height="342" key="GridCell.Tab.0.bottom" timestamp="1614959224784">
+      <screen x="1440" y="25" width="2560" height="1055" />
+    </state>
+    <state width="2508" height="342" key="GridCell.Tab.0.bottom/1440.25.2560.1055/0.25.1440.875@1440.25.2560.1055" timestamp="1614959224784" />
+    <state width="2508" height="342" key="GridCell.Tab.0.center" timestamp="1614959224784">
+      <screen x="1440" y="25" width="2560" height="1055" />
+    </state>
+    <state width="2508" height="342" key="GridCell.Tab.0.center/1440.25.2560.1055/0.25.1440.875@1440.25.2560.1055" timestamp="1614959224784" />
+    <state width="2508" height="342" key="GridCell.Tab.0.left" timestamp="1614959224783">
+      <screen x="1440" y="25" width="2560" height="1055" />
+    </state>
+    <state width="2508" height="342" key="GridCell.Tab.0.left/1440.25.2560.1055/0.25.1440.875@1440.25.2560.1055" timestamp="1614959224783" />
+    <state width="2508" height="342" key="GridCell.Tab.0.right" timestamp="1614959224784">
+      <screen x="1440" y="25" width="2560" height="1055" />
+    </state>
+    <state width="2508" height="342" key="GridCell.Tab.0.right/1440.25.2560.1055/0.25.1440.875@1440.25.2560.1055" timestamp="1614959224784" />
+    <state width="2508" height="342" key="GridCell.Tab.1.bottom" timestamp="1614959224744">
+      <screen x="1440" y="25" width="2560" height="1055" />
+    </state>
+    <state width="2508" height="342" key="GridCell.Tab.1.bottom/1440.25.2560.1055/0.25.1440.875@1440.25.2560.1055" timestamp="1614959224744" />
+    <state width="2508" height="342" key="GridCell.Tab.1.center" timestamp="1614959224744">
+      <screen x="1440" y="25" width="2560" height="1055" />
+    </state>
+    <state width="2508" height="342" key="GridCell.Tab.1.center/1440.25.2560.1055/0.25.1440.875@1440.25.2560.1055" timestamp="1614959224744" />
+    <state width="2508" height="342" key="GridCell.Tab.1.left" timestamp="1614959224743">
+      <screen x="1440" y="25" width="2560" height="1055" />
+    </state>
+    <state width="2508" height="342" key="GridCell.Tab.1.left/1440.25.2560.1055/0.25.1440.875@1440.25.2560.1055" timestamp="1614959224743" />
+    <state width="2508" height="342" key="GridCell.Tab.1.right" timestamp="1614959224744">
+      <screen x="1440" y="25" width="2560" height="1055" />
+    </state>
+    <state width="2508" height="342" key="GridCell.Tab.1.right/1440.25.2560.1055/0.25.1440.875@1440.25.2560.1055" timestamp="1614959224744" />
+    <state x="2275" y="265" key="MultipleFileMergeDialog" timestamp="1614949308625">
+      <screen x="1440" y="25" width="2560" height="1055" />
+    </state>
+    <state x="2275" y="265" key="MultipleFileMergeDialog/1440.25.2560.1055/0.25.1440.875@1440.25.2560.1055" timestamp="1614949308625" />
+    <state x="2112" y="101" key="SettingsEditor" timestamp="1614953159774">
+      <screen x="1440" y="25" width="2560" height="1055" />
+    </state>
+    <state x="2112" y="101" key="SettingsEditor/1440.25.2560.1055/0.25.1440.875@1440.25.2560.1055" timestamp="1614953159774" />
+    <state x="2220" y="212" key="Vcs.Push.Dialog.v2" timestamp="1614954784137">
+      <screen x="1440" y="25" width="2560" height="1055" />
+    </state>
+    <state x="2220" y="212" key="Vcs.Push.Dialog.v2/1440.25.2560.1055/0.25.1440.875@1440.25.2560.1055" timestamp="1614954784137" />
+    <state x="1540" y="125" width="2360" height="855" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1614930879077">
+      <screen x="1440" y="25" width="2560" height="1055" />
+    </state>
+    <state x="1540" y="125" width="2360" height="855" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/1440.25.2560.1055/0.25.1440.875@1440.25.2560.1055" timestamp="1614930879077" />
+    <state x="1540" y="125" width="2360" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1614956510548">
+      <screen x="1440" y="25" width="2560" height="1055" />
+    </state>
+    <state x="1540" y="125" width="2360" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1440.25.2560.1055/0.25.1440.875@1440.25.2560.1055" timestamp="1614956510548" />
+    <state x="2337" y="431" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1614930712882">
+      <screen x="1440" y="25" width="2560" height="1055" />
+    </state>
+    <state x="2337" y="431" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1440.25.2560.1055/0.25.1440.875@1440.25.2560.1055" timestamp="1614930712882" />
+    <state x="2188" y="222" width="1063" height="725" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1614944631730">
+      <screen x="1440" y="25" width="2560" height="1055" />
+    </state>
+    <state x="2188" y="222" width="1063" height="725" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1440.25.2560.1055/0.25.1440.875@1440.25.2560.1055" timestamp="1614944631730" />
+    <state x="2531" y="335" key="refactoring.ChangeSignatureDialog" timestamp="1614939086801">
+      <screen x="1440" y="25" width="2560" height="1055" />
+    </state>
+    <state x="2531" y="335" key="refactoring.ChangeSignatureDialog/1440.25.2560.1055/0.25.1440.875@1440.25.2560.1055" timestamp="1614939086801" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="okhttp3.Headers" fieldName="namesAndValues" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/EQMobileWorkSample$LibraryTest.ic" NAME="LibraryTest Coverage Results" MODIFIED="1614959215138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>EQMobileWork.*</FILTER>
+    </SUITE>
+  </component>
+</project>
