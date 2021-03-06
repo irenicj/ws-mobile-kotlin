@@ -1,4 +1,4 @@
-package EQMobileWork.Android
+package eq.works
 
 import org.junit.Test
 

@@ -1,9 +1,10 @@
 package EQMobileWork
 
 
-import EQMobileWork.Android.FetchLocationLatLong
 import android.content.Context
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
+import eq.works.FetchLocation
+
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.json.Json
 import okhttp3.MediaType.Companion.toMediaType
@@ -44,7 +45,10 @@ class Library {
     fun log(event: LocationEvent, context: Context) {
 
 
-        FetchLocationLatLong().getLatLong(context)
+        val fetch: FetchLocation = FetchLocation()
+
+        fetch.getLatLong(context)
+
 
         // runs the func in background thread for posting the locationEvent without affecting UI thread
         // for safety if not invoked from out side the retrofit instance
