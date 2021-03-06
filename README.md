@@ -18,7 +18,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.irenicj:ws-mobile-kotlin:Tag'
+	        implementation 'com.github.irenicj:ws-mobile-kotlin:0.5'
 	}
 
 [![](https://jitpack.io/v/irenicj/ws-mobile-kotlin.svg)](https://jitpack.io/#irenicj/ws-mobile-kotlin)
