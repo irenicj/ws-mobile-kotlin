@@ -23,6 +23,7 @@ buildscript {
 }
 
 plugins {
+//    id("com.google.android") version "4.1.1.4"
 
     id("maven-publish")
     // Apply the Kotlin JVM plugin to add support for Kotlin.
@@ -43,6 +44,7 @@ repositories {
 
 dependencies {
 
+    compileOnly(group: 'com.google.android', name: 'android', version: '4.1.1.4')
     //    compile project
     implementation project(path: "FetchLocationLL", configuration: "default")
 

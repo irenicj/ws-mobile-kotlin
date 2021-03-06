@@ -19,6 +19,6 @@ class LibraryTest {
         val classUnderTest = Library()
         // init lib for log test
         classUnderTest.setup("https://httpbin.org/post/")
-        classUnderTest.log(LocationEvent(0F, 0F, System.currentTimeMillis() / 1000L, "empty"))
+//        classUnderTest.log(LocationEvent(0F, 0F, System.currentTimeMillis() / 1000L, "empty"),")
     }
 }
