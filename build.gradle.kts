@@ -2,8 +2,12 @@ plugins {
     kotlin("multiplatform") version "1.4.31"
     id("com.android.library")
     id("kotlin-android-extensions")
+    id("maven-publish")
 }
 
+
+group = "pate0304.eqworks"
+version = "1.0-SNAPSHOT"
 
 repositories {
     google()
@@ -13,13 +17,7 @@ repositories {
 
 kotlin {
     android()
-    iosX64("ios") {
-        binaries {
-            framework {
-                baseName = "library"
-            }
-        }
-    }
+
     sourceSets {
         val commonMain by getting
         val commonTest by getting {
@@ -70,8 +68,7 @@ kotlin {
                 implementation("junit:junit:4.13.2")
             }
         }
-        val iosMain by getting
-        val iosTest by getting
+
     }
 }
 
